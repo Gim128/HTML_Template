@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightsteelblue;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2%;
+    color: #565859;
+}
+
+.wrapper{
+    background-color: #f6faff;
+}
+
+img{
+    max-width: 100%;
+}
+
+img .fff{
+    width: 50px;
+    height: 50px;
+}
+
+header{
+    width: 98%;
+}
+
+#logo {
+    max-width: 220px;
+    margin: 2% 0 0 5%;
+    float: left;
+}
+
+#callouts{
+    float: right;
+    margin:3% 3% 2% 0;
+}
+
+.social{
+    float: right;
+    list-style-type: none;
+    margin-top: 8%;
+}
+
+.social li {
+    display: inline;
+}
+
+.banner{
+    margin-bottom: 3%;
+}
+
+.one-col{
+    padding: 2%;
+}
+
+h1{
+    letter-spacing: 1%;
+}
+
+p{
+    text-align: justify;
+    margin-top: 10px;
+}
+
+.button-holder{
+    float: right;
+    margin: 0 2% 4% 0;
+}
+
+.btn{
+    float: right;
+    background: #303840;
+    color: #f6faff;
+    text-decoration: none;
+    font-weight: 800;
+    padding: 12px 19px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+
+.btn:hover{
+    background: #565859;
+}
+
+.line{
+    clear: both;
+    height: 2px;
+    background-color: #e3e9e9;
+    margin: 4% auto;
+    width: 96%;
+}
+
+.two-col{
+    float: left;
+    width: 46%;
+    padding: 2%;
+}
+
+.two-col-2{
+    float: right;
+    width: 46%;
+    padding: 2%;
+}
+
+a  {
+    color: #607cc3;
+    text-decoration: none;
+}
+
+.contact{
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+@media (max-width: 600px) {
+    .two-col, .two-col-2 {
+        width: 97%;
+    }
+}
